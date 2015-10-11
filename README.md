@@ -1,11 +1,5 @@
 #RASPBOT
 
-### Table of contents
-
-You can insert a table of contents using the marker `[TOC]`:
-
-[TOC]
-
 ###**¿Qué es?**
 
 En un inicio se ha diseñado este bot para poder ejecutar comandos de consola desde telegram, y de esta manera poder recibir información sobre algo de nuestra raspberry.
