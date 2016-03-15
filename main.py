@@ -2,16 +2,13 @@ import telebot, os, tempfile, subprocess
 from telebot import util
 
 #Get bot token
-token = os.getenv('tokenBot')
-
+token = os.getenv('tokeBot')
 
 #Get path
 path = os.path.dirname(os.path.abspath(__file__))
 
 
 bot = telebot.TeleBot(token)
-
-
 
 
 #################################################
@@ -25,11 +22,15 @@ def execute(message):
 
 
 def executeCommand(command,chat_id):
-    p = subprocess.Popen(command, stdout=subprocess.PIPE, shell=False)
-    (output, err) = p.communicate()
-    p_status = p.wait()
-
-    sendMessage(output,chat_id)
+    try:
+        p = subprocess.Popen(command, stdout=subprocess.PIPE, shell=False)
+        (output, err) = p.communicate()
+        p_status = p.wait()        
+        sendMessage(output,chat_id)
+    except Exception as e:
+        output = str(e)
+        sendMessage(output,chat_id)
+                        
 
 def sendMessage(message, chat_id):
     with tempfile.NamedTemporaryFile() as temp:
