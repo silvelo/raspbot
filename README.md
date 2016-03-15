@@ -27,7 +27,7 @@ npm i
 ###**Use**
 - Start
 ```
-npm start
+node telebot.js
 ```
 
 ###**Features**
