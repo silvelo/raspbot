@@ -39,9 +39,17 @@ Execute command in the server and return the output of command, if error return 
 ###**TODO**
 - Security
 
+##**Version**
+
+**2.0**
+- All code are refactoring and now use JavaScript, with the same features on **v1.0**
+
+**1.0**
+- Can execute commands in system.
+
+
 ##**License**
 ISC License (ISC)
-Copyright (c) 2016, Company or Person's Name arturo.silvelo@gmail.com
 
 Permission to use, copy, modify, and/or distribute this software for any purpose with or without fee is hereby granted, provided that the above copyright notice and this permission notice appear in all copies.
 
