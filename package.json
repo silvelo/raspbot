@@ -8,7 +8,6 @@
     "dev": "nodemon telebot.js"
   },
   "dependencies": {
-    "assert": "^1.3.0",
     "moment": "^2.12.0",
     "mongodb": "^2.1.11",
     "node-telegram-bot-api": "^0.21.1",

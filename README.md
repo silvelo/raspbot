@@ -12,6 +12,8 @@ This program was tested on Raspberry Pi B+ , with raspbian and node v4.2.1
 ###**Install**
 - Install the last Node.js stable version.
     - [https://nodejs.org/en/download/](https://nodejs.org/en/download/)
+- Install the last Mongo stable version.
+    - [https://www.mongodb.org/downloads](https://www.mongodb.org/downloads)
 - Get a copy of the code and install Node dependencies.
 
 ```
@@ -20,6 +22,8 @@ cd raspbot
 npm i
 ```
 
+You can navigate over the tags to use a specific version.
+
 ###**Configure**
 
 - Rename settings.template.json to settings.json and complete the data.
@@ -27,7 +31,12 @@ npm i
 ###**Use**
 - Start
 ```
-node telebot.js
+npm start
+```
+
+- For development use u can execute:
+```
+npm run dev
 ```
 
 ###**Features**
@@ -41,15 +50,15 @@ Send on changes on file 'file'
 
 ###**TODO**
 
-- Watch
+- Watch(Working)
 - Security
 
 ##**Version**
 
-**2.0**
+**2.0** (v2.0)
 - All code are refactoring and now use JavaScript, with the same features on **v1.0**
 
-**1.0**
+**1.0** (v1.0)
 - Can execute commands in system.
 
 
