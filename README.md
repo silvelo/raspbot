@@ -35,8 +35,13 @@ node telebot.js
 ####**/execute** command
 Execute command in the server and return the output of command, if error return error message. 
 
+####**/watch** file
+Send on changes on file 'file'
+
 
 ###**TODO**
+
+- Watch
 - Security
 
 ##**Version**

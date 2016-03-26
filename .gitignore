@@ -32,4 +32,6 @@ node_modules
 .node_repl_history
 
 #settings file
-settings.js
+settings.json
+
+*.txt

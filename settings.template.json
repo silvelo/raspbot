@@ -1,4 +1,5 @@
 {
     "token": "your bot token",
-    "logFile": "file to save logs"
+    "logFile": "file to save logs",
+    "mongoUrl": "mongodb://localhost:27017/database"
 }
