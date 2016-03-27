@@ -22,11 +22,9 @@ cd raspbot
 npm i
 ```
 
-You can navigate over the tags to use a specific version.
-
 ###**Configure**
 
-- Rename settings.template.json to settings.json and complete the data.
+- Rename *settings.template.json* to *settings.json* and complete the data.
 
 ###**Use**
 - Start
@@ -61,6 +59,9 @@ Send on changes on file 'file'
 **1.0** (v1.0)
 - Can execute commands in system.
 
+
+##**Knowledge issues**
+- When use watch if some change happens u receive two messages , this issue is a problem of *fs* library.
 
 ##**License**
 ISC License (ISC)

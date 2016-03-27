@@ -35,3 +35,7 @@ node_modules
 settings.json
 
 *.txt
+
+# Visual Code folder
+.vscode
+*.out
