@@ -1,5 +1,8 @@
 #RASPBOT
 
+
+![https://david-dm.org/silvelo/raspbot.svg](https://david-dm.org/silvelo/raspbot.svg)
+
 Raspbot is a simple program to listen Telegram bot channel.
 Programmed in Javascript and use [node-telegram-bot-api](https://github.com/yagop/node-telegram-bot-api#new_TelegramBot_new) to make the calls to API
 
