@@ -40,11 +40,13 @@ npm run dev
 ###**Features**
 
 ####**/execute** command
-Execute command in the server and return the output of command, if error return error message. 
+Execute *command* in the server and return the output of command, if error return error message. 
 
 ####**/watch** file
-Send on changes on file 'file'
+Watch changes on *file*
 
+####**/unwatch** file
+Stop watches changes on *file*
 
 ###**TODO**
 
