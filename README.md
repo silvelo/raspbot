@@ -82,7 +82,7 @@ If the server restart, automatically all files will be registered again.
 - Can execute commands in system.
 
 ##**Knowledge issues**
-- When use watch if some change happens you receive two messages , this issue is a problem of *fs* library.
+- When use watch if some change happens you receive two messages , this [issue](https://github.com/mikeal/watch/issues/14) is a problem of *fs* library.
 
 ##**License**
 ISC License (ISC)
