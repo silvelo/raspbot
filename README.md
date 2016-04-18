@@ -66,7 +66,7 @@ Watch changes on *file*
 Stop watches changes on *file*
 
 ###Watch
-If the server restart, automatically all files register for watch , they will be registered again.
+If the server restart, automatically all files will be registered again.
 
 ##**TODO**
 
