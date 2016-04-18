@@ -4,9 +4,9 @@
   "description": "Programa para escuchar un bot en telegram",
   "main": "telebot.js",
   "scripts": {
-    "test": "mocha --no-timeouts",
-    "start": "node telebot.js",
-    "dev": "nodemon telebot.js"
+    "test": "NODE_ENV=production mocha --no-timeouts",
+    "start": "NODE_ENV=production node telebot.js",
+    "dev": "NODE_ENV=development nodemon telebot.js"
   },
   "dependencies": {
     "moment": "^2.12.0",
