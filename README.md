@@ -53,7 +53,7 @@ npm start
 ```
 
 
-###**Features**
+##**Features**
 
 ####**/execute** command
 Execute *command* in the server and return the output of command, if error return error message.
@@ -67,7 +67,7 @@ Stop watches changes on *file*
 ###Watch
 If the server restart, automatically all files register for watch , they will be registered again.
 
-###**TODO**
+##**TODO**
 
 - Watch(Working)
 - Security
@@ -79,7 +79,6 @@ If the server restart, automatically all files register for watch , they will be
 
 **1.0** (v1.0)
 - Can execute commands in system.
-
 
 ##**Knowledge issues**
 - When use watch if some change happens you receive two messages , this issue is a problem of *fs* library.
