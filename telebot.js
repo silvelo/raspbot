@@ -9,6 +9,6 @@ const onMessage = require('./lib/on-message.js')
 const bot = new Bot(config.token)
 
 /** Generate Command to listen */
-onMessage.forEach((element) => {
+onMessage.functions.forEach((element) => {
     bot.onMessage(element.regExp, element.function)
 })

@@ -6,7 +6,7 @@ Programmed in Javascript and use [node-telegram-bot-api](https://github.com/yago
 This program was tested on Raspberry Pi B+ , with raspbian and node v4.2.1
 
 ####**Prerequisites**
- 
+
 - [Telegram bot](https://core.telegram.org/bots)
 
 ###**Install**
@@ -22,31 +22,50 @@ cd raspbot
 npm i
 ```
 
-###**Configure**
+##**Configure**
 
 - Rename *settings.template.json* to *settings.json* and complete the data.
 
-###**Use**
-- Start
+##**Use**
+- ###Test
+To run the test, you need to configure the next enviroment variable:
 ```
-npm start
+export TEST_MOCHA_TOKEN=BOT_TOKEN
 ```
+Now you can execute the test:
+```
+npm test
+```
+And type the commands that appear in the shell. At the moment, the bots
+cannot read messages from other bots
+and we need to type the commands manually to execute the test.
 
-- For development use u can execute:
+
+- ##Development
 ```
 npm run dev
 ```
 
+
+- ###Start
+```
+npm start
+```
+
+
 ###**Features**
 
 ####**/execute** command
-Execute *command* in the server and return the output of command, if error return error message. 
+Execute *command* in the server and return the output of command, if error return error message.
 
 ####**/watch** file
 Watch changes on *file*
 
 ####**/unwatch** file
 Stop watches changes on *file*
+
+###Watch
+If the server restart, automatically all files register for watch , they will be registered again.
 
 ###**TODO**
 
@@ -63,7 +82,7 @@ Stop watches changes on *file*
 
 
 ##**Knowledge issues**
-- When use watch if some change happens u receive two messages , this issue is a problem of *fs* library.
+- When use watch if some change happens you receive two messages , this issue is a problem of *fs* library.
 
 ##**License**
 ISC License (ISC)

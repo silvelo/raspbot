@@ -4,6 +4,7 @@
   "description": "Programa para escuchar un bot en telegram",
   "main": "telebot.js",
   "scripts": {
+    "test": "mocha --no-timeouts",
     "start": "node telebot.js",
     "dev": "nodemon telebot.js"
   },
@@ -14,7 +15,9 @@
     "q": "^1.4.1",
     "winston": "^2.2.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "is": "^3.1.0"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/silvelo/raspbot.git"
