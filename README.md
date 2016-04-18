@@ -27,7 +27,8 @@ npm i
 - Rename *settings.template.json* to *settings.json* and complete the data.
 
 ##**Use**
-- ###Test
+- Test
+
 To run the test, you need to configure the next enviroment variable:
 ```
 export TEST_MOCHA_TOKEN=BOT_TOKEN
@@ -41,13 +42,13 @@ cannot read messages from other bots
 and we need to type the commands manually to execute the test.
 
 
-- ##Development
+- Development
 ```
 npm run dev
 ```
 
 
-- ###Start
+- Start
 ```
 npm start
 ```
