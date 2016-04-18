@@ -1,6 +1,6 @@
 #RASPBOT
 
-Raspbot is a simple program to listen Telegram bot channel.
+Raspbot is a simple program to handle a Telegram bot and execute actions through messages sent to bot
 Programmed in Javascript and use [node-telegram-bot-api](https://github.com/yagop/node-telegram-bot-api#new_TelegramBot_new) to make the calls to API
 
 This program was tested on Raspberry Pi B+ , with raspbian and node v4.2.1
