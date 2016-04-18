@@ -37,7 +37,7 @@ Now you can execute the test:
 ```
 npm test
 ```
-And type the commands that appear in the shell. At the moment, the bots
+And type the commands that appear in the shell. [At the moment](https://core.telegram.org/bots/faq#why-doesn-39t-my-bot-see-messages-from-other-bots), the bots
 cannot read messages from other bots
 and we need to type the commands manually to execute the test.
 
