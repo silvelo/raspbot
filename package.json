@@ -28,7 +28,7 @@
     "node"
   ],
   "author": "Arturo Silvelo",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/silvelo/raspbot/issues"
   },
