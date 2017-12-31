@@ -1,4 +1,6 @@
-#RASPBOT
+
+This library is deprecated, please check out my new project https://github.com/silvelo/telegram-actions
+# RASPBOT
 
 
 ![https://david-dm.org/silvelo/raspbot.svg](https://david-dm.org/silvelo/raspbot.svg)
